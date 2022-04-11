@@ -4,7 +4,8 @@
   "description": "Simple Book Stall",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/PasindiWeerathunge/BookStall/issues"
   },
-  "homepage": "https://github.com/PasindiWeerathunge/BookStall#readme"
+  "homepage": "https://github.com/PasindiWeerathunge/BookStall#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15"
+  }
 }
