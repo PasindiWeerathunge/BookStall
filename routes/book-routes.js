@@ -5,6 +5,7 @@ const bookcontroller  = require ("../controllers/book-controller");
 
 
 router.get("/",bookcontroller.getAllBooks);
-    
+
+router.post("/",bookcontroller.addBook);
 
 module.exports = router;
